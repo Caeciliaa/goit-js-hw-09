@@ -1,0 +1,57 @@
+@import url('./styles.css');
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 408px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  display: block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  transition: border-color 250ms ease-in-out;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input:focus,
+input:active {
+  border-color: #000;
+}
+
+label {
+  display: block;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  transition: background-color 250ms ease-in-out;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
