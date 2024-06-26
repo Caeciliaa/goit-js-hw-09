@@ -1,5 +1,5 @@
-import Simplelightbox from 'simplelightbox'
-import
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
   {
@@ -70,7 +70,6 @@ const images = [
 const picture = document.querySelector('.gallery');
 
 picture.insertAdjacentHTML('afterbegin', createMarkup(images));
-picture.addEventListener('click', handlerGetPicture);
 
 function createMarkup(arr) {
   return arr
@@ -90,6 +89,3 @@ function createMarkup(arr) {
     )
     .join('');
 }
-
-
-
