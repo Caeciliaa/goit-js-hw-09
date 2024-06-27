@@ -17,20 +17,14 @@
   aspect-ratio: 360/200;
   object-fit: cover;
   object-position: center;
-}
-/* 
-.modal {
-  background-color: rgba(46, 47, 66, 0.8);
+  transition: transform 250ms ease-in-out;
 }
 
-.modal-img {
-  max-width: 1112px;
-  height: 696px;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 500ms ease-in-out;
+.gallery-link:hover > .gallery-image,
+.gallery-link:focus > .gallery-image {
+  transform: scale(1.044);
 }
 
-.gallery-link:hover > .gallery-image {
-  transform: scale(1.05);
-} */
+.sl-wrapper {
+  background: rgba(46, 47, 66, 0.8);
+}
